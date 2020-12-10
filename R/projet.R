@@ -1,5 +1,5 @@
 ##base de donnees loyer lyon 2018
-file.show("Base_OP_2018_L6900/Base_OP_2018_L6900.csv")
+#file.show("Base_OP_2018_L6900/Base_OP_2018_L6900.csv")
 obs<- read.csv2("~/Documents/R/ProjetDMStats/Base_OP_2018_L6900/Base_OP_2018_L6900.csv",na = "NA")
 obs<=na.omit(obs)
 #View(Base_OP_2018_L6900)
